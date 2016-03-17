@@ -1,0 +1,11 @@
+{
+    "project_path": "c:/xampp/htdocs/carloswu/wp-content/themes/checkers0.6/sass/style.scss",
+	"output_path": "c:/xampp/htdocs/carloswu/wp-content/themes/checkers0.6/style.css",
+	"options": {
+		"cache":         true,
+		"debug":         true,
+		"line-comments": true,
+		"line-numbers":  true,
+		"style":         "nested"
+	}
+}

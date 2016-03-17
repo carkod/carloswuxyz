@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="ApiBatchRequestTest.php" server="178.62.223.52" local="131001198021609668" remote="131002297130000000" Dst="1" />
+<file name="ApiCacheParserTest.php" server="178.62.223.52" local="131001198021629669" remote="131002297130000000" Dst="1" />
+<file name="ApiClientTest.php" server="178.62.223.52" local="131001198021829681" remote="131002297140000000" Dst="1" />
+<file name="ApiMediaFileUploadTest.php" server="178.62.223.52" local="131001198021849682" remote="131002297140000000" Dst="1" />
+<file name="ApiModelTest.php" server="178.62.223.52" local="131001198021869683" remote="131002297140000000" Dst="1" />
+<file name="ApiOAuth2Test.php" server="178.62.223.52" local="131001198021969689" remote="131002297150000000" Dst="1" />
+<file name="AuthTest.php" server="178.62.223.52" local="131001198022009691" remote="131002297150000000" Dst="1" />
+<file name="CacheTest.php" server="178.62.223.52" local="131001198022049693" remote="131002297160000000" Dst="1" />
+<file name="ComputeEngineAuthTest.php" server="178.62.223.52" local="131001198022069695" remote="131002297160000000" Dst="1" />
+<file name="IoTest.php" server="178.62.223.52" local="131001198022409714" remote="131002297190000000" Dst="1" />
+<file name="LoggerTest.php" server="178.62.223.52" local="131001198022539721" remote="131002297200000000" Dst="1" />
+<file name="RequestTest.php" server="178.62.223.52" local="131001198022569723" remote="131002297200000000" Dst="1" />
+<file name="ResourceTest.php" server="178.62.223.52" local="131001198022599725" remote="131002297200000000" Dst="1" />
+<file name="RestTest.php" server="178.62.223.52" local="131001198022629727" remote="131002297210000000" Dst="1" />
+<file name="ServiceTest.php" server="178.62.223.52" local="131001198022669729" remote="131002297220000000" Dst="1" />
+<file name="TaskTest.php" server="178.62.223.52" local="131001198022759734" remote="131002297220000000" Dst="1" />
+<file name="URITemplateTest.php" server="178.62.223.52" local="131001198023329767" remote="131002297270000000" Dst="1" />
+</dwsync>

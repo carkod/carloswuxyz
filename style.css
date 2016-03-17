@@ -1,0 +1,60 @@
+/*
+Error: Invalid CSS after "": expected selector, was "{"
+        on line 3 of /home/ubuntu/workspace/.c9/builders/My Builder.build
+
+1: // Create a custom Cloud9 build system - similar to the Sublime build system
+2: // For more information see https://docs.c9.io/custom_runners.html
+3: {
+4:     "cmd" : ["sass", "$file:$project_path/wp-content/themes/checkers0.7/style.css", "--update"],
+5:     "shell" : true,
+6:     "info" : "Building /wp-content/themes/checkers0.7/style.css",
+7:     
+8: }
+
+Backtrace:
+/home/ubuntu/workspace/.c9/builders/My Builder.build:3
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1179:in `expected'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1115:in `expected'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1095:in `expr!'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/scss/static_parser.rb:20:in `parse_selector'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:425:in `visit_rule'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `with_base'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/tree/root_node.rb:36:in `css_tree'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `each'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/plugin.rb:82:in `update_stylesheets'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:363:in `watch_or_update'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/exec/base.rb:52:in `parse'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/lib/sass/exec/base.rb:19:in `parse!'
+/usr/local/rvm/gems/ruby-2.3.0/gems/sass-3.4.21/bin/sass:13:in `<top (required)>'
+/usr/local/rvm/gems/ruby-2.3.0/bin/sass:23:in `load'
+/usr/local/rvm/gems/ruby-2.3.0/bin/sass:23:in `<main>'
+/usr/local/rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `eval'
+/usr/local/rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"\": expected selector, was \"{\"\A         on line 3 of /home/ubuntu/workspace/.c9/builders/My Builder.build\A \A 1: // Create a custom Cloud9 build system - similar to the Sublime build system\A 2: // For more information see https://docs.c9.io/custom_runners.html\A 3: {\A 4:     \"cmd\" : [\"sass\", \"$file:$project_path/wp-content/themes/checkers0.7/style.css\", \"--update\"],\A 5:     \"shell\" : true,\A 6:     \"info\" : \"Building /wp-content/themes/checkers0.7/style.css\",\A 7:     \A 8: }"; }

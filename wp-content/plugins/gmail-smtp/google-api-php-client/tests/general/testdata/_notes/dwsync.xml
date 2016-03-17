@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="cacert.json" server="178.62.223.52" local="131001198022889741" remote="131002297240000000" Dst="1" />
+<file name="cacert.pem" server="178.62.223.52" local="131001198022919743" remote="131002297240000000" Dst="1" />
+<file name="cert.p12" server="178.62.223.52" local="131001198022949745" remote="131002297240000000" Dst="1" />
+<file name="privkey.pem" server="178.62.223.52" local="131001198022969746" remote="131002297250000000" Dst="1" />
+<file name="service-12345.json" server="178.62.223.52" local="131001198023219760" remote="131002297250000000" Dst="1" />
+<file name="service-rsa-12345.json" server="178.62.223.52" local="131001198023249762" remote="131002297250000000" Dst="1" />
+<file name="test.ini" server="178.62.223.52" local="131001198023269763" remote="131002297260000000" Dst="1" />
+<file name="test_public_key.pem" server="178.62.223.52" local="131001198023299765" remote="131002297260000000" Dst="1" />
+</dwsync>
