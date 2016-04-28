@@ -60,6 +60,9 @@ $table_prefix  = 'wp_';
 define('WP_DEBUG', false);
 define('WP_MEMORY_LIMIT', '100M');
 
+define('WP_HOME','https://carloswu-dev-carkod.c9users.io');
+define('WP_SITEURL','https://carloswu-dev-carkod.c9users.io');
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
